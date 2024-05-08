@@ -15,6 +15,7 @@
     />
     <link rel="stylesheet" href="styles.css" />
     <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <script src="menu.js" defer></script>
     <title>Lift Detox Black</title>
   </head>
   <body>
@@ -35,7 +36,7 @@
           <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Benefícios</a></li>
-            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Fale Comigo</a></li>
           </ul>
         </nav>
 
@@ -43,6 +44,25 @@
           <a href="#">
             <button>Contato</button>
           </a>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+          <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <i class="bi bi-x-lg"></i>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Benefícios</a></li>
+              <li><a href="#">Fale Comigo</a></li>
+              <li><a href="#">Contato</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -131,6 +151,37 @@
             </div>
         </div>
       </section>
+
+      <section class="formulario">
+          <div class="interface">
+            <h2 class="titulo">FALE <span>COMIGO.</span></h2>
+
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="f8405b81-34a7-4f7e-aa1d-070c0c50e907">
+              <input type="text" name="name" placeholder="Nome Completo" required>
+              <input type="email" name="email" placeholder="E-mail" required>
+              <textarea name="message" placeholder="Sua mensagem" required></textarea>
+              <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+            </form>
+          </div>
+        </div>
+      </section>
+
     </main>
+
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <img src="images/logo.png" alt="Logo do Produto" height="100" width="100">
+            </div>
+          </div>
+        </div>
+        <div class="line-footer borda">
+          <p><i class="bi bi-enveloper-fill"></i><a href="mailto:example@gmail.com"></a></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
