@@ -3,8 +3,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
+h2.titulo{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #00FF08;
+}
+
+/* ESTILO DO CABEÇALHO */ 
 body{
   background-color: #000;
   height: 100vh;;
@@ -105,4 +117,37 @@ section.topo-do-site .flex{
   100%{
     top: 30px;
   }
+}
+
+/* ESTILO DOS BENEFICIOS */
+
+section.beneficios{
+  padding: 40px 4%;
+}
+
+section.beneficios .flex{
+  gap: 60px;
+}
+
+.beneficios .beneficios-box{
+  color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 45px;
+  transform: .2s;
+}
+
+.beneficios .beneficios-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffffff78;
+}
+
+.beneficios .beneficios-box i{
+  font-size: 70px;
+  color: #00FF08;
+}
+
+.beneficios .beneficios-box h3{
+  font-size: 28px;
+  margin: 15px 0;
 }
