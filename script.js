@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
       event.preventDefault();
 
       // Número de telefone para envio da mensagem
-      var phoneNumber = "+5592992612577";
+      var phoneNumber = "+559281538278";
 
       // Obter os valores do nome e da mensagem
       var name = document.getElementById("name").value;
